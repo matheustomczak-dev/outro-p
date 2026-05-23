@@ -46,3 +46,30 @@
     font-size: 25px;
     cursor: pointer;
 }
+
+.tarefas{
+    width: 80%;
+    margin: 20px auto;
+    padding: 30px;
+
+    background-color: #9fbe8d;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.tarefa{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px;
+    border-radius: 8px;
+
+    background-color: #2d8f57;
+    color: white;
+
+    font-size: 20px;
+}
